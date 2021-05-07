@@ -41,6 +41,8 @@ GemCraft - Frostborn Wrath and GemCraft - Chasing Shadows are developed and owne
 
 
 # Credits
+Shape designs are by Tommax16
+
 Gem Shapes Plus is developed by piepie62
 
 Bezel Mod Loader is developed by Hellrage
