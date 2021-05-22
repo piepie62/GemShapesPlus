@@ -26,6 +26,9 @@ package gemshapesplus.shapemodifiers
 		private var g23:Sprite;
 		private var g24:Sprite;
 		private var g25:Sprite;
+		private var g26:Sprite;
+		private var g27:Sprite;
+		private var g28:Sprite;
 		
 		public override function set visible(val:Boolean):void
 		{

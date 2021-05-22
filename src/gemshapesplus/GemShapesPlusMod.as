@@ -24,21 +24,25 @@ package gemshapesplus
 		
 		private var gameObjects:Object;
 		
-		[Embed(source = "../../shapes/g13.svg")] public static const g13:Class;
-		[Embed(source = "../../shapes/g14.svg")] public static const g14:Class;
-		[Embed(source = "../../shapes/g15.svg")] public static const g15:Class;
-		[Embed(source = "../../shapes/g16.svg")] public static const g16:Class;
-		[Embed(source = "../../shapes/g17.svg")] public static const g17:Class;
-		[Embed(source = "../../shapes/g18.svg")] public static const g18:Class;
-		[Embed(source = "../../shapes/g19.svg")] public static const g19:Class;
-		[Embed(source = "../../shapes/g20.svg")] public static const g20:Class;
-		[Embed(source = "../../shapes/g21.svg")] public static const g21:Class;
-		[Embed(source = "../../shapes/g22.svg")] public static const g22:Class;
-		[Embed(source = "../../shapes/g23.svg")] public static const g23:Class;
-		[Embed(source = "../../shapes/g24.svg")] public static const g24:Class;
-		[Embed(source = "../../shapes/g25.svg")] public static const g25:Class;
+		[Embed(source = "../../shapes/eight_petal.svg")] public static const g13:Class;
+		[Embed(source = "../../shapes/heart.svg")] public static const g14:Class;
+		[Embed(source = "../../shapes/spiky.svg")] public static const g15:Class;
+		[Embed(source = "../../shapes/six_petal.svg")] public static const g16:Class;
+		[Embed(source = "../../shapes/octagon.svg")] public static const g17:Class;
+		[Embed(source = "../../shapes/teardrop.svg")] public static const g18:Class;
+		[Embed(source = "../../shapes/diamond.svg")] public static const g19:Class;
+		[Embed(source = "../../shapes/four_petal.svg")] public static const g20:Class;
+		[Embed(source = "../../shapes/crescent.svg")] public static const g21:Class;
+		[Embed(source = "../../shapes/swirly_drop.svg")] public static const g22:Class;
+		[Embed(source = "../../shapes/eye.svg")] public static const g23:Class;
+		[Embed(source = "../../shapes/three_petal.svg")] public static const g24:Class;
+		[Embed(source = "../../shapes/potato.svg")] public static const g25:Class;
+		[Embed(source = "../../shapes/shield.svg")] public static const g26:Class;
+		[Embed(source = "../../shapes/axe.svg")] public static const g27:Class;
+		[Embed(source = "../../shapes/filled_axe.svg")] public static const g28:Class;
 		
-		public static const MAX_EXTRA_GRADE:int = 25;
+		
+		public static const MAX_EXTRA_GRADE:int = 28;
 		
 		public function GemShapesPlusMod()
 		{
