@@ -44,6 +44,8 @@ package gemshapesplus
 		
 		public static const MAX_EXTRA_GRADE:int = 28;
 		
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,18,2,24,3,4,5,16,20,19,6,26,7,14,17,8,9,15,10,13,23,21,22,11,27,28,12];
+		
 		public function GemShapesPlusMod()
 		{
 			logger = Logger.getLogger("GemShapesPlus");

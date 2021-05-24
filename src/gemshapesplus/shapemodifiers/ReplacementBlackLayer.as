@@ -2,8 +2,10 @@ package gemshapesplus.shapemodifiers
 {
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
+	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.geom.ColorTransform;
+	import flash.geom.Rectangle;
 	import gemshapesplus.GemShapesPlusMod;
 	/**
 	 * ...
@@ -11,9 +13,20 @@ package gemshapesplus.shapemodifiers
 	 */
 	public class ReplacementBlackLayer extends MovieClip
 	{
-		private var oldBlackLayer:MovieClip;
 		private var shouldBeFrame:int;
 		
+		private var g1:DisplayObject;
+		private var g2:DisplayObject;
+		private var g3:DisplayObject;
+		private var g4:DisplayObject;
+		private var g5:DisplayObject;
+		private var g6:DisplayObject;
+		private var g7:DisplayObject;
+		private var g8:DisplayObject;
+		private var g9:DisplayObject;
+		private var g10:DisplayObject;
+		private var g11:DisplayObject;
+		private var g12:DisplayObject;
 		private var g13:Sprite;
 		private var g14:Sprite;
 		private var g15:Sprite;
@@ -37,41 +50,55 @@ package gemshapesplus.shapemodifiers
 			this.setVisible(this.shouldBeFrame, val);
 		}
 		
-		public override function set mask(val:DisplayObject):void
-		{
-			super.mask = val;
-			this.oldBlackLayer.mask = val;
-		}
-		
 		public function ReplacementBlackLayer(oldBlackLayer:MovieClip) 
 		{
-			this.oldBlackLayer = oldBlackLayer;
+			var scaleX:Number = oldBlackLayer.scaleX, scaleY:Number = oldBlackLayer.scaleY;
 			
-			this.shouldBeFrame = this.oldBlackLayer.currentFrame;
+			this.shouldBeFrame = oldBlackLayer.currentFrame;
 			
 			var i:int;
 			var varName:String;
+			
+			for (i = 1; i <= 12; i++)
+			{
+				varName = "g" + i;
+				oldBlackLayer.gotoAndStop(i);
+				this[varName] = new Shape();
+				this[varName].graphics.drawGraphicsData((oldBlackLayer.getChildAt(0) as Shape).graphics.readGraphicsData());
+			}
 
 			for (i = 13; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
 			{
 				varName = "g" + i;
 				this[varName] = new GemShapesPlusMod[varName]();
 				
-				this[varName].scaleX = this.oldBlackLayer.scaleX;
-				this[varName].scaleY = this.oldBlackLayer.scaleY;
 				this[varName].transform.colorTransform = new ColorTransform(0, 0, 0);
-				
-				this.addChild(this[varName]);
 			}
 			
-			for (i = 13; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
+			var width:Number = Number.MIN_VALUE, height:Number = Number.MIN_VALUE;
+			
+			for (i = 1; i < GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
 			{
 				varName = "g" + i;
-				this[varName].x = (this.width - this[varName].width) / 2;
-				this[varName].y = (this.height - this[varName].height) / 2;
+				width = Math.max(this[varName].width, width);
+				height = Math.max(this[varName].height, height);
+			}
+			
+			var rect:Rectangle;
+			
+			for (i = 1; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
+			{
+				varName = "g" + i;
+				rect = this[varName].getRect(this[varName]);
+				this.addChild(this[varName]);
+				this[varName].x = (width - this[varName].width) / 2 - rect.x;
+				this[varName].y = (height - this[varName].height) / 2 - rect.y;
 			}
 			
 			this.setVisible(this.shouldBeFrame, this.visible);
+			
+			this.scaleX = scaleX;
+			this.scaleY = scaleY;
 		}
 		
 		public override function gotoAndStop(frame:Object, scene:String = null):void
@@ -94,33 +121,18 @@ package gemshapesplus.shapemodifiers
 		
 		private function setVisible(frame:int, val:Boolean):void
 		{
-			var i:int;
-			if (frame <= 12)
+			var activeSprite:int = Math.min(GemShapesPlusMod.MAX_EXTRA_GRADE, frame);
+			
+			for (var i:int = 0; i < GemShapesPlusMod.GRADE_ORDER.length; i++)
 			{
-				oldBlackLayer.gotoAndStop(frame);
-				oldBlackLayer.visible = val;
-				
-				for (i = 13; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
+				var image:int = GemShapesPlusMod.GRADE_ORDER[i];
+				if (i + 1 == activeSprite)
 				{
-					this["g" + i].visible = false;
+					this["g" + image].visible = val;
 				}
-			}
-			else
-			{
-				oldBlackLayer.visible = false;
-				
-				var activeSprite:int = Math.min(GemShapesPlusMod.MAX_EXTRA_GRADE, frame);
-				
-				for (i = 13; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
+				else
 				{
-					if (i == activeSprite)
-					{
-						this["g" + i].visible = val;
-					}
-					else
-					{
-						this["g" + i].visible = false;
-					}
+					this["g" + image].visible = false;
 				}
 			}
 		}

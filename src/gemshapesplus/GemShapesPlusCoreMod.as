@@ -17,12 +17,14 @@ package gemshapesplus
 				GemShapesPlusMod.logger.log("installCoremods", "Found GCFW, installing coremod");
 				installGemCoremod(lattice, "gcfw");
 				installVfxCoremod(lattice, "gcfw");
+				installNumberCoremod(lattice, "gcfw");
 			}
 			else
 			{
 				GemShapesPlusMod.logger.log("installCoremods", "Found GCCS, installing coremod");
 				installGemCoremod(lattice, "gccs/steam");
 				installVfxCoremod(lattice, "gccs/steam");
+				installNumberCoremod(lattice, "gccs/steam");
 			}
 		}
 		
@@ -71,14 +73,14 @@ package gemshapesplus
 			var offset:int = lattice.findPattern(filename, /refid.*McVfxTowerShotGlare\/instance\/init/);
 			if (offset == -1)
 			{
-				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply gem coremod!");
+				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply tower coremod!");
 				return;
 			}
 			
 			offset = lattice.findPattern(filename, /maxstack/, offset);
 			if (offset == -1)
 			{
-				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply gem coremod!");
+				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply tower coremod!");
 				return;
 			}
 			lattice.patchFile(filename, offset - 1, 1, "maxstack 10");
@@ -86,7 +88,7 @@ package gemshapesplus
 			offset = lattice.findPattern(filename, /returnvoid/, offset);
 			if (offset == -1)
 			{
-				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply gem coremod!");
+				GemShapesPlusMod.logger.log("installGemCoremod", "Could not find proper place to apply tower coremod!");
 				return;
 			}
 			
@@ -102,6 +104,31 @@ package gemshapesplus
 				callproperty QName(PackageNamespace(""), "getDefinition"), 1 \n \
 				getlocal0 \n \
 				callpropvoid QName(PackageNamespace(""), "addVfxShapes"), 1');
+		}
+		
+		private static function installNumberCoremod(lattice:Lattice, baseGame:String):void
+		{
+			var filename:String = "com/giab/games/" + baseGame + "/utils/GemBitmapCreator.class.asasm";
+			var offset:int = lattice.findPattern(filename, /getproperty.*"grade".*\ncallproperty.*"g".*, 0\npushbyte 12\ngreaterequals\ndup/m);
+			
+			if (offset == -1)
+			{
+				GemShapesPlusMod.logger.log("installNumberCoremod", "Could not find proper place to apply number coremod");
+				return;
+			}
+			
+			lattice.patchFile(filename, offset - 2, 5, "getlocal2");
+			
+			filename = "com/giab/games/" + baseGame + "/mcStat/McOptions.class.asasm";
+			offset = lattice.findPattern(filename, /Show grade for grade 13\+ gems/);
+			
+			if (offset == -1)
+			{
+				GemShapesPlusMod.logger.log("installNumberCoremod", "Could not find proper place to apply number coremod");
+				return;
+			}
+			
+			lattice.patchFile(filename, offset - 1, 1, 'pushstring "Show gem grades"');
 		}
 	}
 
