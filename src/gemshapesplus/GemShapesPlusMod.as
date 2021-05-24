@@ -41,10 +41,12 @@ package gemshapesplus
 		[Embed(source = "../../shapes/axe.svg")] public static const g27:Class;
 		[Embed(source = "../../shapes/filled_axe.svg")] public static const g28:Class;
 		
-		
 		public static const MAX_EXTRA_GRADE:int = 28;
 		
+		CONFIG::release
 		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,18,2,24,3,4,5,16,20,19,6,26,7,14,17,8,9,15,10,13,23,21,22,11,27,28,12];
+		CONFIG::debug
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28];
 		
 		public function GemShapesPlusMod()
 		{
