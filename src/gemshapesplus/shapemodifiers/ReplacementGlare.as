@@ -9,6 +9,7 @@ package gemshapesplus.shapemodifiers
 	import flash.display.Shape;
 	import flash.display.Sprite;
 	import flash.geom.Matrix;
+	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	import gemshapesplus.GemShapesPlusMod;
 	import flash.utils.getQualifiedClassName;
@@ -78,7 +79,7 @@ package gemshapesplus.shapemodifiers
 				{
 					var bmpFill:GraphicsBitmapFill = gData[0] as GraphicsBitmapFill;
 					var path:GraphicsPath = gData[1] as GraphicsPath;
-					this.bmps[this.bmps.length] = new BitmapData(oldShape.width * 4, oldShape.height * 4);
+					this.bmps[this.bmps.length] = new BitmapData(oldShape.width * bmpFill.matrix.transformPoint(new Point(1, 0)).length, oldShape.height * bmpFill.matrix.transformPoint(new Point(0, 1)).length);
 					var newMatrix:Matrix = bmpFill.matrix.clone();
 					newMatrix.invert();
 					this.bmps[this.bmps.length - 1].draw(oldShape, newMatrix);
