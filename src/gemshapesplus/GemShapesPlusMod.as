@@ -29,7 +29,7 @@ package gemshapesplus
 		[Embed(source = "../../shapes/spiky.svg")] public static const g15:Class;
 		[Embed(source = "../../shapes/six_petal.svg")] public static const g16:Class;
 		[Embed(source = "../../shapes/octagon.svg")] public static const g17:Class;
-		[Embed(source = "../../shapes/teardrop.svg")] public static const g18:Class;
+		[Embed(source = "../../shapes/teardrop_seal.svg")] public static const g18:Class;
 		[Embed(source = "../../shapes/diamond.svg")] public static const g19:Class;
 		[Embed(source = "../../shapes/four_petal.svg")] public static const g20:Class;
 		[Embed(source = "../../shapes/crescent.svg")] public static const g21:Class;
@@ -40,13 +40,21 @@ package gemshapesplus
 		[Embed(source = "../../shapes/shield.svg")] public static const g26:Class;
 		[Embed(source = "../../shapes/axe.svg")] public static const g27:Class;
 		[Embed(source = "../../shapes/filled_axe.svg")] public static const g28:Class;
+		[Embed(source = "../../shapes/cube.svg")] public static const g29:Class;
+		[Embed(source = "../../shapes/snowflake.svg")] public static const g30:Class;
+		[Embed(source = "../../shapes/teardrop.svg")] public static const g31:Class;
+		[Embed(source = "../../shapes/briolette.svg")] public static const g32:Class;
+		[Embed(source = "../../shapes/corkscrew.svg")] public static const g33:Class;
+		[Embed(source = "../../shapes/hole.svg")] public static const g34:Class;
+		[Embed(source = "../../shapes/shard.svg")] public static const g35:Class;
+		[Embed(source = "../../shapes/toast.svg")] public static const g36:Class;
 		
-		public static const MAX_EXTRA_GRADE:int = 28;
+		public static const MAX_EXTRA_GRADE:int = 36;
 		
 		CONFIG::release
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,18,2,24,3,4,5,16,20,19,6,26,7,14,17,8,9,15,10,13,23,21,22,11,27,28,12];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25, 31, 18,2,24,3,4,5,16,20,19,6,26,7,14,17,8,9,15,10,13,23,21,22,11,27,28,12, 29, 30, 32, 33, 34, 35, 36];
 		CONFIG::debug
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36];
 		
 		public function GemShapesPlusMod()
 		{
@@ -75,11 +83,11 @@ package gemshapesplus
 			GemShapesPlusCoreMod.installCoremods(lattice);
 		}
 		
+		CONFIG::debug
 		public function onNewScene(e:IngameNewSceneEvent): void
 		{
 			gameObjects.GV.ingameCore.changeMana(100000000000000, false, false);
 		}
-		
 	}
 	
 }

@@ -14,35 +14,8 @@ package gemshapesplus.shapemodifiers
 	public class ReplacementBlackLayer extends MovieClip
 	{
 		private var shouldBeFrame:int;
-		
-		private var g1:DisplayObject;
-		private var g2:DisplayObject;
-		private var g3:DisplayObject;
-		private var g4:DisplayObject;
-		private var g5:DisplayObject;
-		private var g6:DisplayObject;
-		private var g7:DisplayObject;
-		private var g8:DisplayObject;
-		private var g9:DisplayObject;
-		private var g10:DisplayObject;
-		private var g11:DisplayObject;
-		private var g12:DisplayObject;
-		private var g13:Sprite;
-		private var g14:Sprite;
-		private var g15:Sprite;
-		private var g16:Sprite;
-		private var g17:Sprite;
-		private var g18:Sprite;
-		private var g19:Sprite;
-		private var g20:Sprite;
-		private var g21:Sprite;
-		private var g22:Sprite;
-		private var g23:Sprite;
-		private var g24:Sprite;
-		private var g25:Sprite;
-		private var g26:Sprite;
-		private var g27:Sprite;
-		private var g28:Sprite;
+
+		private var images:Vector.<DisplayObject>;
 		
 		public override function set visible(val:Boolean):void
 		{
@@ -56,43 +29,41 @@ package gemshapesplus.shapemodifiers
 			
 			this.shouldBeFrame = oldBlackLayer.currentFrame;
 			
+			this.images = new Vector.<DisplayObject>(GemShapesPlusMod.MAX_EXTRA_GRADE + 1, true);
+			this.images[0] = null;
+
 			var i:int;
-			var varName:String;
 			
 			for (i = 1; i <= 12; i++)
 			{
-				varName = "g" + i;
+				this.images[i] = new Shape();
 				oldBlackLayer.gotoAndStop(i);
-				this[varName] = new Shape();
-				this[varName].graphics.drawGraphicsData((oldBlackLayer.getChildAt(0) as Shape).graphics.readGraphicsData());
+				(this.images[i] as Shape).graphics.drawGraphicsData((oldBlackLayer.getChildAt(0) as Shape).graphics.readGraphicsData());
 			}
 
 			for (i = 13; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
 			{
-				varName = "g" + i;
-				this[varName] = new GemShapesPlusMod[varName]();
+				this.images[i] = new GemShapesPlusMod["g" + i]();
 				
-				this[varName].transform.colorTransform = new ColorTransform(0, 0, 0);
+				this.images[i].transform.colorTransform = new ColorTransform(0, 0, 0);
 			}
 			
 			var width:Number = Number.MIN_VALUE, height:Number = Number.MIN_VALUE;
 			
 			for (i = 1; i < GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
 			{
-				varName = "g" + i;
-				width = Math.max(this[varName].width, width);
-				height = Math.max(this[varName].height, height);
+				width = Math.max(this.images[i].width, width);
+				height = Math.max(this.images[i].height, height);
 			}
 			
 			var rect:Rectangle;
 			
 			for (i = 1; i <= GemShapesPlusMod.MAX_EXTRA_GRADE; i++)
 			{
-				varName = "g" + i;
-				rect = this[varName].getRect(this[varName]);
-				this.addChild(this[varName]);
-				this[varName].x = (width - this[varName].width) / 2 - rect.x;
-				this[varName].y = (height - this[varName].height) / 2 - rect.y;
+				rect = this.images[i].getRect(this.images[i]);
+				this.addChild(this.images[i]);
+				this.images[i].x = (width - this.images[i].width) / 2 - rect.x;
+				this.images[i].y = (height - this.images[i].height) / 2 - rect.y;
 			}
 			
 			this.setVisible(this.shouldBeFrame, this.visible);
@@ -123,16 +94,16 @@ package gemshapesplus.shapemodifiers
 		{
 			var activeSprite:int = Math.min(GemShapesPlusMod.MAX_EXTRA_GRADE, frame);
 			
-			for (var i:int = 0; i < GemShapesPlusMod.GRADE_ORDER.length; i++)
+			for (var grade:int = 1; grade <= GemShapesPlusMod.GRADE_ORDER.length; grade++)
 			{
-				var image:int = GemShapesPlusMod.GRADE_ORDER[i];
-				if (i + 1 == activeSprite)
+				var image:int = GemShapesPlusMod.GRADE_ORDER[grade-1];
+				if (grade == activeSprite)
 				{
-					this["g" + image].visible = val;
+					this.images[image].visible = val;
 				}
 				else
 				{
-					this["g" + image].visible = false;
+					this.images[image].visible = false;
 				}
 			}
 		}

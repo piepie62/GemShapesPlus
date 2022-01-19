@@ -1,184 +1,33 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.65" height="23.5" viewBox="0,0,18.65,23.5">
-	<g transform="translate(-230.175,-167.75)">
-		<g data-paper-data="{    &quot;isPaintingLayer&quot;:true    }" stroke-miterlimit="10" stroke-dashoffset="0" style="mix-blend-mode: normal">
-			<path d="M239.525,191.25v-1.75l0.4,1.65l-0.4,0.1" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.925,191.15l-0.4,-1.65l1.6,-1.55l-1.2,3.2" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,189.5v-1.3l1.65,-0.25l-1.65,1.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.925,191.1l1.2,-3.15l0.95,0.7l-2.15,2.45" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.075,188.65l-0.95,-0.75l0.8,-1.15l0.15,1.9" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.125,187.95l-0.05,-1.85l0.85,0.65l-0.8,1.2" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.125,187.95l-1.6,0.25l-0.05,-0.95l1.65,0.7" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.075,187.6l-1.15,-0.85l1.7,-2.7l-0.55,3.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.925,186.75l0.45,-1.35l1.25,-1.35l-1.7,2.7" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.925,186.75l-0.85,-0.65l1.3,-0.7l-0.45,1.35" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.075,187.55l0.55,-3.5l0.9,0.95l-1.45,2.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.075,188.65l-0.15,-1.9l1.15,0.85l-1,1.05" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.525,185l-0.9,-0.95l0.87863,-1.6l0.02137,2.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.525,185v-2.6l1.15,0.65l-1.15,1.95" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.675,183.05l-1.15,-0.65l0.9,-2.1l0.25,2.75" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.675,183.05l-0.25,-2.75l1.8,-1.05l-1.55,3.8" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.225,179.25l-1.8,1.05l0.95,-2.35l0.85,1.3" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.225,179.25l-0.85,-1.3l1.2,0.55l-0.35,0.75" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.575,178.5l-1.2,-0.55l1.65,-0.95l-0.45,1.5" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M248.025,177l-1.65,0.95l0.65,-2.2l1,1.25" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M248.025,177l-1,-1.25l1.8,-1.7l-0.8,2.95" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.025,175.75l0.45,-1.85l1.35,0.15l-1.8,1.7" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.475,173.9l1.05,-0.6l0.3,0.75l-1.35,-0.15" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.475,173.9l0.85,-1.15l0.25,0.55l-1.1,0.6" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.475,173.9l-0.3,-0.6l1.15,-0.55l-0.85,1.15" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.175,173.3l-2.5,-1.65l3.65,1.05l-1.15,0.6" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.675,171.65l0.55,-0.9l3.1,2l-3.65,-1.1" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.675,171.7l-1.1,-0.7l1.65,-0.25l-0.55,0.95" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.575,171v-1.25l1.65,1l-1.65,0.25" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.575,171l-1.15,-0.7l1.15,-0.55v1.25" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,170.3l0.05,-1.2l1.1,0.65l-1.15,0.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,170.3l-2,-2.55l2.05,1.35l-0.05,1.2" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.075,168.95l0.35,-1.2l2,2.55l-2.35,-1.35" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.075,168.95l-0.6,-1.15l0.95,-0.05l-0.35,1.2" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,169v-1.2l0.6,1.15l-0.6,0.05" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.075,186.1l1.35,-3.05l-0.05,2.35l-1.3,0.7" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.375,185.4l0.05,-2.35l1.2,1l-1.25,1.35" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.625,184.05l-1.2,-1l2.1,-0.65l-0.9,1.65" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.625,184.05l-1.2,-1l2.14926,-0.65z" fill="none" fill-rule="nonzero" stroke="#000000" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
-			<path d="M241.125,187.95l-1.6,-0.7l1.55,-1.15l0.05,1.85" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,187.25l2.95,-4.2l-1.35,3.05l-1.6,1.15" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.525,182.45l-2.1,0.6l1.6,-3.15l0.5,2.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.525,182.4l-0.5,-2.5l1.4,0.4l-0.9,2.1" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.425,180.3l-1.4,-0.4l2.35,-1.95l-0.95,2.35" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M246.375,177.95l-2.35,1.95l1.05,-2.6l1.3,0.65" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M246.375,177.95l-1.3,-0.65l1.95,-1.55l-0.65,2.2" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.075,177.3l0.75,-2.5l1.2,0.95l-1.95,1.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M247.025,175.75l-1.2,-0.95l1.65,-0.9l-0.45,1.85" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.825,174.8l1.35,-1.5l0.3,0.6l-1.65,0.9" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.825,174.8v-0.65l1.35,-0.85l-1.35,1.5" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.825,174.15l0.2,-1.6l1.15,0.75l-1.35,0.85" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.825,174.15l-1.15,-2.45l1.35,0.85l-0.2,1.6" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.925,172.25l1.75,-0.55l1.15,2.45l-2.9,-1.9" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.925,172.25l0.65,-1.25l1.1,0.7l-1.75,0.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.925,172.25l-0.5,-1.95l1.15,0.7l-0.65,1.25" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.925,172.25l-1.3,-0.8l0.8,-1.15l0.5,1.95" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.625,171.45l-1.55,-2.5l2.35,1.35l-0.8,1.15" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.525,170.85l-0.45,-1.9l1.55,2.5l-1.1,-0.6" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.525,170.85l-1.05,-1.85l0.6,-0.05l0.45,1.9" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,170.3v-1.3l1.05,1.85l-1.05,-0.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.525,183.7l-0.05,-6.95l1.6,4.45l-1.55,2.5" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.525,180.3l-2.05,-3.55l2.65,2.05l-0.6,1.5" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.575,177.8l-3.1,-1.05l3.65,-0.3l-0.55,1.35" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.975,175.5l-3.5,1.25l2.8,-2.65l0.7,1.4" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,176.75l0.95,-3.75l0.95,0.55l-1.9,3.2" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.075,181.15l-1.6,-4.4l2.05,3.55l-0.45,0.85" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.125,178.8l-2.65,-2.05l3.1,1.05l-0.45,1" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,176.75l3.5,-1.25l0.15,0.95l-3.65,0.3" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.275,174.1l-2.8,2.6l1.9,-3.15l0.9,0.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,176.75v-4.25l0.95,0.5l-0.95,3.75" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.525,187.25v-3.55l2.9,-0.6l-2.9,4.15" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,183.05l-2.9,0.65l1.55,-2.55l1.35,1.9" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,183.05l-1.35,-1.9l0.45,-0.85l0.9,2.75" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,183.1l-0.9,-2.8l0.6,-1.5l0.3,4.3" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.425,183.05l-0.3,-4.25l1.9,1.1l-1.6,3.15" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M244.025,179.9l-1.9,-1.1l2.95,-1.45l-1.05,2.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.125,178.8l0.45,-1l2.5,-0.5l-2.95,1.5" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.575,177.8l0.55,-1.35l1.95,0.9l-2.5,0.45" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.075,177.3l-1.95,-0.85l2.7,-1.65l-0.75,2.5" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M245.825,174.8l-2.7,1.65l2.7,-2.3v0.65" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M243.125,176.45l-0.15,-0.95l2.85,-1.35l-2.7,2.3" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.975,175.5l-0.7,-1.4l3.55,0.05l-2.85,1.35" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.275,174.1l0.65,-1.85l2.9,1.9l-3.55,-0.05" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M242.275,174.1l-0.9,-0.55l1.55,-1.3l-0.65,1.85" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.375,173.55l0.25,-2.1l1.3,0.8l-1.55,1.3" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M241.375,173.55l-0.95,-0.55l1.2,-1.55l-0.25,2.1" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.425,173l0.1,-2.15l1.1,0.6l-1.2,1.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M240.425,173l-0.95,-0.5l1.05,-1.65l-0.1,2.15" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.475,172.5v-2.15l1.05,0.5l-1.05,1.65" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.075,191.1l0.45,-1.6v1.75l-0.45,-0.15" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.875,187.95l1.6,1.55l-0.4,1.6l-1.2,-3.15" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.875,187.95l1.65,0.25v1.3l-1.65,-1.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.925,188.65l0.95,-0.7l1.2,3.15l-2.15,-2.45" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.075,186.75l0.8,1.2l-0.95,0.7l0.15,-1.9" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.075,186.75l0.85,-0.65l-0.05,1.85l-0.8,-1.2" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M239.525,187.25v0.95l-1.65,-0.25l1.65,-0.7" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.375,184.05l1.7,2.7l-1.15,0.8l-0.55,-3.5" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.375,184.05l1.25,1.35l0.45,1.35l-1.7,-2.7" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.625,185.4l1.3,0.7l-0.85,0.65l-0.45,-1.35" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.475,185l0.9,-0.95l0.55,3.5l-1.45,-2.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.925,187.55l1.15,-0.8l-0.15,1.9l-1,-1.1" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.475,182.4l0.9,1.65l-0.9,0.95v-2.6" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.325,183.05l1.15,-0.65v2.6l-1.15,-1.95" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.575,180.3l0.9,2.1l-1.15,0.65l0.25,-2.75" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.775,179.25l1.8,1.05l-0.25,2.75l-1.55,-3.8" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M232.625,177.95l0.95,2.35l-1.8,-1.05l0.85,-1.3" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.425,178.45l1.2,-0.5l-0.85,1.3l-0.35,-0.8" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.975,177l1.65,0.95l-1.2,0.55l-0.45,-1.5" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.975,175.75l0.65,2.2l-1.65,-0.95l1,-1.25" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.175,174.05l1.8,1.7l-1,1.2l-0.8,-2.9" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.175,174.05l1.35,-0.15l0.45,1.85l-1.8,-1.7" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.175,174.05l0.3,-0.75l1.05,0.6l-1.35,0.15" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.425,173.3l0.25,-0.55l0.85,1.15l-1.1,-0.6" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.675,172.7l1.15,0.6l-0.3,0.6l-0.85,-1.2" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.675,172.75l3.65,-1.1l-2.5,1.65l-1.15,-0.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M230.675,172.75l3.1,-2.05l0.55,0.95l-3.65,1.1" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.775,170.75l1.65,0.25l-1.1,0.7l-0.55,-0.95" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.775,170.7l1.65,-0.95v1.25l-1.65,-0.3" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.425,169.7l1.15,0.6l-1.15,0.7v-1.3" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.425,169.75l1.1,-0.65l0.05,1.2l-1.15,-0.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.525,169.1l2.05,-1.35l-2,2.55l-0.05,-1.2" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.575,170.3l2,-2.55l0.35,1.2l-2.35,1.35" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.575,167.75l0.95,0.05l-0.6,1.15l-0.35,-1.2" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.925,168.95l0.6,-1.15v1.2l-0.6,-0.05" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.625,185.4l-0.05,-2.35l1.35,3.05l-1.3,-0.7" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.375,184.05l1.2,-1l0.05,2.35l-1.25,-1.35" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.475,182.4l2.1,0.65l-1.2,1l-0.9,-1.65" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.475,182.4l2.1,0.65l-1.2,1z" fill="none" fill-rule="nonzero" stroke="#000000" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
-			<path d="M237.925,186.1l1.55,1.15l-1.6,0.7l0.05,-1.85" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.925,186.1l-1.35,-3.05l2.95,4.2l-1.6,-1.15" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.975,179.9l1.6,3.15l-2.1,-0.65l0.5,-2.5" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.575,180.3l1.4,-0.4l-0.5,2.5l-0.9,-2.1" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M232.625,177.95l2.35,1.95l-1.4,0.4l-0.95,-2.35" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.925,177.3l1.05,2.6l-2.35,-1.95l1.3,-0.65" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.975,175.75l1.95,1.55l-1.3,0.65l-0.65,-2.2" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.975,175.75l1.2,-0.95l0.75,2.5l-1.95,-1.55" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.525,173.9l1.65,0.9l-1.2,0.95l-0.45,-1.85" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.525,173.9l0.3,-0.6l1.35,1.5l-1.65,-0.9" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.825,173.3l1.35,0.85v0.65l-1.35,-1.5" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M231.825,173.3l1.15,-0.75l0.2,1.6l-1.35,-0.85" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M232.975,172.55l1.35,-0.9l-1.15,2.5l-0.2,-1.6" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.15l1.15,-2.5l1.75,0.6l-2.9,1.9" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.325,171.7l1.1,-0.7l0.65,1.25l-1.75,-0.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.425,171l1.15,-0.7l-0.5,1.95l-0.65,-1.25" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.575,170.3l0.8,1.15l-1.3,0.8l0.5,-1.95" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.575,170.3l2.35,-1.35l-1.55,2.5l-0.8,-1.15" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.375,171.45l1.55,-2.5l-0.45,1.9l-1.1,0.6" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.925,168.95l0.6,0.05l-1.05,1.85l0.45,-1.9" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.475,170.85l1.05,-1.85v1.3l-1.05,0.55" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.925,181.15l1.6,-4.4l-0.05,6.95l-1.55,-2.55" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.875,178.8l2.65,-2.05l-2.05,3.55l-0.6,-1.5" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.875,176.4l3.65,0.35l-3.1,1l-0.55,-1.35" fill="#000000" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.725,174.1l2.8,2.65l-3.5,-1.25l0.7,-1.4" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.625,173.55l0.95,-0.55l0.95,3.75l-1.9,-3.2" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.475,180.3l2.05,-3.55l-1.6,4.4l-0.45,-0.85" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.425,177.75l3.1,-1l-2.65,2.05l-0.45,-1.05" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M235.875,176.45l0.15,-0.95l3.5,1.25l-3.65,-0.3" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.625,173.55l1.9,3.15l-2.8,-2.6l0.9,-0.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.575,173l0.95,-0.5v4.2l-0.95,-3.7" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.575,183.05l2.9,0.65v3.55l-2.9,-4.2" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.925,181.15l1.55,2.55l-2.9,-0.65l1.35,-1.9" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.475,180.3l0.45,0.85l-1.35,1.9l0.9,-2.75" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.875,178.8l0.6,1.5l-0.9,2.75l0.3,-4.25" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M234.975,179.9l1.9,-1.1l-0.3,4.25l-1.6,-3.15" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.925,177.3l2.95,1.5l-1.9,1.1l-1.05,-2.6" fill="#ffffff" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.925,177.3l2.5,0.45l0.45,1.05l-2.95,-1.5" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.925,177.3l1.95,-0.9l0.55,1.35l-2.5,-0.45" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.8l2.7,1.6l-1.95,0.9l-0.75,-2.5" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.15l2.7,2.3l-2.7,-1.65v-0.65" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.15l2.85,1.35l-0.15,0.9l-2.7,-2.25" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.15l3.55,-0.05l-0.7,1.4l-2.85,-1.35" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M233.175,174.15l2.9,-1.9l0.7,1.85l-3.6,0.05" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.075,172.25l1.55,1.3l-0.85,0.55l-0.7,-1.85" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M236.075,172.25l1.3,-0.8l0.25,2.1l-1.55,-1.3" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.375,171.45l1.2,1.55l-0.95,0.55l-0.25,-2.1" fill="#666666" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M237.375,171.45l1.1,-0.6l0.1,2.15l-1.2,-1.55" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.475,170.85l1.05,1.65l-0.95,0.5l-0.1,-2.15" fill="#333333" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-			<path d="M238.475,170.85l1.05,-0.55v2.2l-1.05,-1.65" fill="#cccccc" fill-rule="evenodd" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" />
-		</g>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="23.5px" width="18.65px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 9.35, 11.75)">
+    <path d="M5.4 -1.65 L7.0 -7.3 9.3 -2.6 5.75 1.65 5.4 -1.65" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M7.9 2.9 L5.8 1.6 9.25 -2.6 Q9.35 -2.65 8.5 0.85 8.2 1.9 7.9 2.9 L7.9 2.9" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M9.25 -2.65 L7.0 -7.25 9.25 -8.25 9.25 -2.65" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M7.0 -7.25 L6.05 -11.75 9.25 -8.25 7.0 -7.25" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M5.8 1.55 L7.9 2.9 Q7.9 3.2 6.8 5.1 6.3 5.9 5.8 6.75 L5.8 1.55" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M1.65 7.6 L3.6 3.3 5.8 1.55 5.8 6.75 1.65 7.6" fill="#000000" fill-rule="evenodd" stroke="none"/>
+    <path d="M4.95 -5.7 L7.0 -7.3 5.4 -1.6 4.95 -5.7" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M4.95 -5.7 L2.35 -7.3 7.0 -7.3 4.95 -5.7" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M2.35 -7.25 L0.0 -8.7 6.05 -11.75 7.0 -7.3 2.35 -7.25" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+    <path d="M3.55 3.35 L5.4 -1.65 5.75 1.6 3.55 3.35" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M1.6 7.55 L5.8 6.75 Q5.8 6.75 5.3 7.35 4.75 8.05 4.5 8.3 3.85 8.95 3.2 9.6 L1.6 7.55" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M-0.05 11.7 L1.65 7.55 3.2 9.6 Q3.3 9.65 1.55 10.8 0.75 11.25 -0.05 11.7 L-0.05 11.7" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M0.0 6.4 L3.6 3.3 1.7 7.6 0.0 6.4" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M-5.8 1.65 L-9.35 -2.6 -7.05 -7.3 -5.45 -1.65 -5.8 1.65" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+    <path d="M-8.55 0.85 Q-8.95 -0.9 -9.3 -2.6 L-5.85 1.6 -7.95 2.9 Q-7.9 3.45 -8.55 0.85 L-8.55 0.85" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M-9.3 -8.25 L-7.05 -7.25 -9.3 -2.65 -9.3 -8.25" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M-9.3 -8.25 L-6.1 -11.75 -7.05 -7.25 -9.3 -8.25" fill="#000000" fill-rule="evenodd" stroke="none"/>
+    <path d="M-5.85 6.75 Q-5.85 6.75 -6.25 6.15 -6.7 5.45 -6.85 5.1 -7.4 4.0 -7.95 2.9 L-5.85 1.55 -5.85 6.75" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M-5.85 6.75 L-5.85 1.55 -3.65 3.3 -1.7 7.6 -5.85 6.75" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M-5.45 -1.6 L-7.05 -7.3 -5.0 -5.7 -5.45 -1.6" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M-7.05 -7.3 L-2.35 -7.3 -5.0 -5.65 -7.05 -7.3" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M-7.05 -7.3 L-6.1 -11.75 0.0 -8.7 -2.4 -7.25 -7.05 -7.3" fill="#333333" fill-rule="evenodd" stroke="none"/>
+    <path d="M-5.8 1.6 L-5.45 -1.65 -3.6 3.35 -5.8 1.6" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M-3.25 9.6 Q-3.35 9.65 -4.55 8.3 -5.2 7.5 -5.85 6.75 L-1.65 7.55 -3.25 9.6" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M-1.6 10.8 Q-2.45 10.2 -3.25 9.6 L-1.7 7.55 -0.05 11.75 Q-0.05 11.75 -0.6 11.4 -1.3 11.0 -1.6 10.8 L-1.6 10.8" fill="#ffffff" fill-rule="evenodd" stroke="none"/>
+    <path d="M-1.75 7.6 L-3.65 3.3 0.05 6.4 -1.75 7.6" fill="#cccccc" fill-rule="evenodd" stroke="none"/>
+    <path d="M-0.05 11.75 L-1.7 7.55 0.05 6.4 1.65 7.55 -0.05 11.75" fill="#666666" fill-rule="evenodd" stroke="none"/>
+    <path d="M-3.6 3.35 L-5.45 -1.65 -5.0 -5.65 0.0 -8.7 4.95 -5.7 5.45 -1.6 3.55 3.35 0.05 6.4 -3.6 3.35" fill="#000000" fill-rule="evenodd" stroke="none"/>
+  </g>
 </svg>
