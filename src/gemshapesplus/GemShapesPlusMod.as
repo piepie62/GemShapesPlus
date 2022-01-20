@@ -73,9 +73,16 @@ package gemshapesplus
 		public function bind(loader:Bezel, gameObjects:Object):void
 		{
 		}
+
+		CONFIG::release
+		public function unload(loader:Bezel, gameObjects:Object):void
+		{
+		}
 		
+		CONFIG::debug
 		public function unload():void
 		{
+			bezel.removeEventListener(EventTypes.INGAME_NEW_SCENE, this.onNewScene);
 		}
 		
 		public function loadCoreMod(lattice:Lattice): void
