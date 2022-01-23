@@ -7,6 +7,8 @@ package gemshapesplus
 	import Bezel.Lattice.Lattice;
 	import Bezel.Logger;
 	import flash.display.MovieClip;
+	import gemshapesplus.gcfw.ShapeAdder;
+	import gemshapesplus.gccs.steam.ShapeAdder;
 	
 	/**
 	 * ...
@@ -67,22 +69,56 @@ package gemshapesplus
 			bezel = loader;
 			bezel.addEventListener(EventTypes.INGAME_NEW_SCENE, this.onNewScene);
 			this.gameObjects = gameObjects;
+
+			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			{
+				gemshapesplus.gcfw.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
+			else
+			{
+				gemshapesplus.gccs.steam.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
 		}
 		
 		CONFIG::release
 		public function bind(loader:Bezel, gameObjects:Object):void
 		{
+			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			{
+				gemshapesplus.gcfw.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
+			else
+			{
+				gemshapesplus.gccs.steam.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
 		}
 
 		CONFIG::release
 		public function unload(loader:Bezel, gameObjects:Object):void
 		{
+			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			{
+				gemshapesplus.gcfw.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
+			else
+			{
+				gemshapesplus.gccs.steam.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
 		}
 		
 		CONFIG::debug
 		public function unload():void
 		{
 			bezel.removeEventListener(EventTypes.INGAME_NEW_SCENE, this.onNewScene);
+
+			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			{
+				gemshapesplus.gcfw.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
+			else
+			{
+				gemshapesplus.gccs.steam.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
+			}
 		}
 		
 		public function loadCoreMod(lattice:Lattice): void

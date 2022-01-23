@@ -8,14 +8,17 @@ package gemshapesplus.gcfw
 	import gemshapesplus.GemShapesPlusMod;
 	import gemshapesplus.shapemodifiers.ReplacementBlackLayer;
 	import gemshapesplus.shapemodifiers.ReplacementGlare;
+	import GemCraftFrostbornWrath_fla.gemGlare_9;
+	import GemCraftFrostbornWrath_fla.gemColorBodyMain_5;
 	/**
 	 * ...
 	 * @author Chris
 	 */
 	public class ShapeAdder 
 	{
-		public static function addShapes(mc:McGem):void
+		public static function addShapes(o:Object):void
 		{
+			var mc:McGem = o as McGem;
 			var rect:Rectangle = mc.getRect(mc);
 			var origWidth:Number = mc.width, origHeight:Number = mc.height;
 			
@@ -33,9 +36,28 @@ package gemshapesplus.gcfw
 			mc.blackLayer.x = (origWidth - mc.blackLayer.width) / 2 + rect.x;
 			mc.blackLayer.y = (origHeight - mc.blackLayer.height) / 2 + rect.y;
 		}
-		
-		public static function addVfxShapes(mc:McVfxTowerShotGlare):void
+
+		public static function removeShapes(o:Object):void
 		{
+			var mc:McGem = o as McGem;
+			mc.removeChild(mc.glare);
+			mc.glare = new gemGlare_9();
+			mc.glare.scaleX = mc.glare.scaleY = 1.8863525390625;
+			mc.glare.x = 27;
+			mc.glare.y = 28.05;
+			mc.addChild(mc.glare);
+
+			mc.removeChild(mc.blackLayer);
+			mc.blackLayer = new gemColorBodyMain_5();
+			mc.blackLayer.scaleX = mc.blackLayer.scaleY = 1.8863525390625;
+			mc.blackLayer.x = 27;
+			mc.blackLayer.y = 28.05;
+			mc.addChild(mc.blackLayer);
+		}
+		
+		public static function addVfxShapes(o:Object):void
+		{
+			var mc:McVfxTowerShotGlare = o as McVfxTowerShotGlare;
 			// TODO: Figure out why this doesn't work and how to fix it
 			var rect:Rectangle = mc.getRect(mc);
 			var origWidth:Number = mc.width, origHeight:Number = mc.height;
