@@ -43,7 +43,7 @@
     <option linkReport="" />
     <option loadExterns="" />
     <option staticLinkRSL="True" />
-    <option additional="-includes gemshapesplus.gcfw.ShapeAdder&#xA;-includes gemshapesplus.gccs.steam.ShapeAdder" />
+    <option additional="" />
     <option compilerConstants="" />
     <option minorVersion="" />
   </build>
@@ -57,9 +57,9 @@
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Frostborn Wrath\Mods\BezelModLoader.swc" />
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Frostborn Wrath\GemCraft Frostborn Wrath.swc" />
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Chasing Shadows\gc-cs-steam.swc" />
+    <element path="%BezelLibs%\BezelModLoader.swc" />
+    <element path="%BezelLibs%\GemCraft Frostborn Wrath.swc" />
+    <element path="%BezelLibs%\gc-cs-steam.swc" />
   </externalLibraryPaths>
   <!-- Runtime Shared Libraries -->
   <rslPaths>
