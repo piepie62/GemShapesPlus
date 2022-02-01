@@ -2,13 +2,12 @@ package gemshapesplus
 {
 	import Bezel.Bezel;
 	import Bezel.BezelCoreMod;
-	import Bezel.Events.EventTypes;
-	import Bezel.Events.IngameNewSceneEvent;
 	import Bezel.Lattice.Lattice;
 	import Bezel.Logger;
 	import flash.display.MovieClip;
 	import gemshapesplus.gcfw.ShapeAdder;
 	import gemshapesplus.gccs.steam.ShapeAdder;
+	import flash.events.Event;
 	
 	/**
 	 * ...
@@ -16,7 +15,7 @@ package gemshapesplus
 	 */
 	public class GemShapesPlusMod extends MovieClip implements BezelCoreMod 
 	{
-		public function get BEZEL_VERSION():String { return "1.0.0"; }
+		public function get BEZEL_VERSION():String { return "2.0.0"; }
 		public function get VERSION():String { return "0.0.1"; }
 		public function get MOD_NAME():String { return "Gem Shapes Plus"; }
 		public function get COREMOD_VERSION():String { return GemShapesPlusCoreMod.VERSION; }
@@ -67,7 +66,7 @@ package gemshapesplus
 		public function bind(loader:Bezel, gameObjects:Object):void
 		{
 			bezel = loader;
-			bezel.addEventListener(EventTypes.INGAME_NEW_SCENE, this.onNewScene);
+			bezel.addEventListener("ingameNewScene", this.onNewScene);
 			this.gameObjects = gameObjects;
 
 			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
@@ -94,7 +93,7 @@ package gemshapesplus
 		}
 
 		CONFIG::release
-		public function unload(loader:Bezel, gameObjects:Object):void
+		public function unload():void
 		{
 			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
 			{
@@ -109,7 +108,7 @@ package gemshapesplus
 		CONFIG::debug
 		public function unload():void
 		{
-			bezel.removeEventListener(EventTypes.INGAME_NEW_SCENE, this.onNewScene);
+			bezel.removeEventListener("ingameNewScene", this.onNewScene);
 
 			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
 			{
@@ -127,7 +126,7 @@ package gemshapesplus
 		}
 		
 		CONFIG::debug
-		public function onNewScene(e:IngameNewSceneEvent): void
+		public function onNewScene(e:Event): void
 		{
 			gameObjects.GV.ingameCore.changeMana(100000000000000, false, false);
 		}
