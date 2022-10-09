@@ -21,10 +21,7 @@ package gemshapesplus
 		public function get COREMOD_VERSION():String { return GemShapesPlusCoreMod.VERSION; }
 		
 		public static var logger:Logger;
-		
-		CONFIG::debug
 		public static var bezel:Bezel;
-		CONFIG::debug
 		private var gameObjects:Object;
 		
 		[Embed(source = "../../shapes/eight_petal.svg")] public static const g13:Class;
@@ -70,14 +67,15 @@ package gemshapesplus
 		
 		public function bind(loader:Bezel, gameObjects:Object):void
 		{
+			bezel = loader;
+			this.gameObjects = gameObjects;
+
 			CONFIG::debug
 			{
-				bezel = loader;
 				bezel.addEventListener("ingameNewScene", this.onNewScene);
-				this.gameObjects = gameObjects;
 			}
 
-			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			if (loader.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
 			{
 				gemshapesplus.gcfw.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
 			}
