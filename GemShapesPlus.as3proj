@@ -12,7 +12,7 @@
     <movie minorVersion="0" />
     <movie platform="AIR" />
     <movie background="#FFFFFF" />
-    <movie preferredSDK="Apache Flex 4.16.1 FP32.0 AIR33.1 en_US;4.16.1;" />
+    <movie preferredSDK="Apache Flex 4.16.1 FP27.0 AIR33.1 en_US;4.16.1;" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
@@ -58,7 +58,7 @@
   <!-- External Libraries -->
   <externalLibraryPaths>
     <element path="%BezelLibs%\BezelModLoader.swc" />
-    <element path="%BezelLibs%\GemCraft Frostborn Wrath.swc" />
+    <element path="%BezelLibs%\GemCraft.Frostborn.Wrath.swc" />
     <element path="%BezelLibs%\gc-cs-steam.swc" />
   </externalLibraryPaths>
   <!-- Runtime Shared Libraries -->

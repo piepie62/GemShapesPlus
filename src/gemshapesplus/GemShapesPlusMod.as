@@ -21,8 +21,10 @@ package gemshapesplus
 		public function get COREMOD_VERSION():String { return GemShapesPlusCoreMod.VERSION; }
 		
 		public static var logger:Logger;
-		public static var bezel:Bezel;
 		
+		CONFIG::debug
+		public static var bezel:Bezel;
+		CONFIG::debug
 		private var gameObjects:Object;
 		
 		[Embed(source = "../../shapes/eight_petal.svg")] public static const g13:Class;
@@ -49,25 +51,31 @@ package gemshapesplus
 		[Embed(source = "../../shapes/hole.svg")] public static const g34:Class;
 		[Embed(source = "../../shapes/shard.svg")] public static const g35:Class;
 		[Embed(source = "../../shapes/toast.svg")] public static const g36:Class;
+		[Embed(source = "../../shapes/cinnamon.svg")] public static const g37:Class;
+		[Embed(source = "../../shapes/cut_diamond.svg")] public static const g38:Class;
+		[Embed(source = "../../shapes/way.svg")] public static const g39:Class;
+		[Embed(source = "../../shapes/taco.svg")] public static const g40:Class;
 		
-		public static const MAX_EXTRA_GRADE:int = 36;
+		public static const MAX_EXTRA_GRADE:int = 40;
 		
 		CONFIG::release
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25, 31, 18,2,24,3,4,5,16,20,19,6,26,7,14,17,8,9,15,10,13,23,21,22,11,27,28,12, 29, 30, 32, 33, 34, 35, 36];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,31,18,2,24,7,4,26,38,14,35,6,19,5,29,3,28,36,17,40,33,23,27,11,34,39,21,22,32,10,8,9,20,16,13,37,30,15,12];
 		CONFIG::debug
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
 		
 		public function GemShapesPlusMod()
 		{
 			logger = Logger.getLogger("GemShapesPlus");
 		}
 		
-		CONFIG::debug
 		public function bind(loader:Bezel, gameObjects:Object):void
 		{
-			bezel = loader;
-			bezel.addEventListener("ingameNewScene", this.onNewScene);
-			this.gameObjects = gameObjects;
+			CONFIG::debug
+			{
+				bezel = loader;
+				bezel.addEventListener("ingameNewScene", this.onNewScene);
+				this.gameObjects = gameObjects;
+			}
 
 			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
 			{
@@ -79,36 +87,12 @@ package gemshapesplus
 			}
 		}
 		
-		CONFIG::release
-		public function bind(loader:Bezel, gameObjects:Object):void
-		{
-			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
-			{
-				gemshapesplus.gcfw.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
-			}
-			else
-			{
-				gemshapesplus.gccs.steam.ShapeAdder.addShapes(gameObjects.GV.gemBitmapCreator.mc);
-			}
-		}
-
-		CONFIG::release
 		public function unload():void
 		{
-			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
+			CONFIG::debug
 			{
-				gemshapesplus.gcfw.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
+				bezel.removeEventListener("ingameNewScene", this.onNewScene);
 			}
-			else
-			{
-				gemshapesplus.gccs.steam.ShapeAdder.removeShapes(gameObjects.GV.gemBitmapCreator.mc);
-			}
-		}
-		
-		CONFIG::debug
-		public function unload():void
-		{
-			bezel.removeEventListener("ingameNewScene", this.onNewScene);
 
 			if (bezel.mainLoader.gameClassFullyQualifiedName == "com.giab.games.gcfw.Main")
 			{
@@ -128,7 +112,7 @@ package gemshapesplus
 		CONFIG::debug
 		public function onNewScene(e:Event): void
 		{
-			gameObjects.GV.ingameCore.changeMana(100000000000000, false, false);
+			gameObjects.GV.ingameCore.changeMana(10000000000000000, false, false);
 		}
 	}
 	

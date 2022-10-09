@@ -3,7 +3,7 @@
 ## Description
 Gem Shapes Plus is a cosmetic mod for GCFW and GCCS.
 
-It adds eleven new shapes for gem grades 13-23.
+It adds twenty-eight new shapes for gem grades 13-40.
 
 No gem stats are changed by this mod: all it does is make your game prettier.
 
