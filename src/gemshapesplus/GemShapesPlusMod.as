@@ -15,8 +15,8 @@ package gemshapesplus
 	 */
 	public class GemShapesPlusMod extends MovieClip implements BezelCoreMod 
 	{
-		public function get BEZEL_VERSION():String { return "2.0.0"; }
-		public function get VERSION():String { return "0.0.1"; }
+		public function get BEZEL_VERSION():String { return "2.0.4"; }
+		public function get VERSION():String { return "1.0.0"; }
 		public function get MOD_NAME():String { return "Gem Shapes Plus"; }
 		public function get COREMOD_VERSION():String { return GemShapesPlusCoreMod.VERSION; }
 		
@@ -56,9 +56,15 @@ package gemshapesplus
 		public static const MAX_EXTRA_GRADE:int = 40;
 		
 		CONFIG::release
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,31,18,2,24,7,4,26,38,14,35,6,19,5,29,3,28,36,17,40,33,23,27,11,34,39,21,22,32,10,8,9,20,16,13,37,30,15,12];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,25,31,18,2,24,7,4,26,38,
+																 14,35,6,19,5,29,3,28,36,17,
+																 40,33,23,27,11,34,39,21,22,32,
+																 10,8,9,20,16,13,37,30,15,12];
 		CONFIG::debug
-		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40];
+		public static const GRADE_ORDER:Vector.<int> = new <int>[1,2,3,4,5,6,7,8,9,10,
+																 11,12,13,14,15,16,17,18,19,20,
+																 21,22,23,24,25,26,27,28,29,30,
+																 31,32,33,34,35,36,37,38,39,40];
 		
 		public function GemShapesPlusMod()
 		{

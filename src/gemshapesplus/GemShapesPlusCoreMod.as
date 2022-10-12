@@ -9,7 +9,7 @@ package gemshapesplus
 	 */
 	public class GemShapesPlusCoreMod 
 	{
-		internal static const VERSION:String = "3";
+		internal static const VERSION:String = "4";
 		internal static function installCoremods(lattice:Lattice):void
 		{
 			if (lattice.doesFileExist("com/giab/games/gcfw/Main.class.asasm"))
@@ -22,8 +22,28 @@ package gemshapesplus
 			{
 				GemShapesPlusMod.logger.log("installCoremods", "Found GCCS, installing coremod");
 				installVfxCoremod(lattice, "gccs/steam");
+				installGCCSToolTipCoremod(lattice);
 				installNumberCoremod(lattice, "gccs/steam");
 			}
+		}
+
+		private static function installGCCSToolTipCoremod(lattice:Lattice):void
+		{
+			var filename:String = "com/giab/games/gccs/steam/ingame/IngameInfoPanelRenderer.class.asasm";
+			var offset:int = lattice.findPattern(filename, /findpropstrict.*"McGem"/);
+			offset += 3;
+			lattice.patchFile(filename, offset, 0, ' \
+				getlex QName(PackageNamespace("com.giab.games.gccs.steam"), "GV") \n \
+				getproperty QName(PackageNamespace(""), "main") \n \
+				getproperty QName(PackageNamespace(""), "bezel") \n \
+				pushstring "Gem Shapes Plus" \n \
+				callproperty QName(PackageNamespace(""), "getModByName"), 1 \n \
+				getproperty QName(PackageNamespace(""), "loaderInfo") \n \
+				getproperty QName(PackageNamespace(""), "applicationDomain") \n \
+				pushstring "gemshapesplus.gccs.steam.ShapeAdder" \n \
+				callproperty QName(PackageNamespace(""), "getDefinition"), 1 \n \
+				getlocal 5 \n \
+				callpropvoid QName(PackageNamespace(""), "addShapes"), 1');
 		}
 		
 		private static function installVfxCoremod(lattice:Lattice, baseGame:String):void

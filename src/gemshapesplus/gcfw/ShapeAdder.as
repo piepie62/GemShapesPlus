@@ -58,7 +58,6 @@ package gemshapesplus.gcfw
 		public static function addVfxShapes(o:Object):void
 		{
 			var mc:McVfxTowerShotGlare = o as McVfxTowerShotGlare;
-			// TODO: Figure out why this doesn't work and how to fix it
 			var rect:Rectangle = mc.getRect(mc);
 			var origWidth:Number = mc.width, origHeight:Number = mc.height;
 			var origScaleX:Number = mc.scaleX, origScaleY:Number = mc.scaleY;

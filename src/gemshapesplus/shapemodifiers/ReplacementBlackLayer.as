@@ -3,7 +3,6 @@ package gemshapesplus.shapemodifiers
 	import flash.display.DisplayObject;
 	import flash.display.MovieClip;
 	import flash.display.Shape;
-	import flash.display.Sprite;
 	import flash.geom.ColorTransform;
 	import flash.geom.Rectangle;
 	import gemshapesplus.GemShapesPlusMod;
