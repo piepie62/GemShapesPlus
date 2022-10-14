@@ -16,7 +16,7 @@ package gemshapesplus
 	public class GemShapesPlusMod extends MovieClip implements BezelCoreMod 
 	{
 		public function get BEZEL_VERSION():String { return "2.0.4"; }
-		public function get VERSION():String { return "1.0.0"; }
+		public function get VERSION():String { return "1.0.1"; }
 		public function get MOD_NAME():String { return "Gem Shapes Plus"; }
 		public function get COREMOD_VERSION():String { return GemShapesPlusCoreMod.VERSION; }
 		

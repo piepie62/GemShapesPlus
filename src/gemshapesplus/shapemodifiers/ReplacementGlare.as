@@ -22,6 +22,8 @@ package gemshapesplus.shapemodifiers
 		private var images:Vector.<DisplayObject>;
 		
 		private var bmps:Vector.<BitmapData>;
+
+		public var useOriginals:Boolean = false;
 		
 		public override function set visible(val:Boolean):void
 		{
@@ -118,7 +120,7 @@ package gemshapesplus.shapemodifiers
 			
 			for (var grade:int = 1; grade <= GemShapesPlusMod.GRADE_ORDER.length; grade++)
 			{
-				var image:int = GemShapesPlusMod.GRADE_ORDER[grade-1];
+				var image:int = useOriginals ? grade : GemShapesPlusMod.GRADE_ORDER[grade-1];
 				if (grade == activeSprite)
 				{
 					this.images[image].visible = val;

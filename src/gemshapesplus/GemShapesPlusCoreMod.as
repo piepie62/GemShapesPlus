@@ -9,13 +9,14 @@ package gemshapesplus
 	 */
 	public class GemShapesPlusCoreMod 
 	{
-		internal static const VERSION:String = "4";
+		internal static const VERSION:String = "5";
 		internal static function installCoremods(lattice:Lattice):void
 		{
 			if (lattice.doesFileExist("com/giab/games/gcfw/Main.class.asasm"))
 			{
 				GemShapesPlusMod.logger.log("installCoremods", "Found GCFW, installing coremod");
 				installVfxCoremod(lattice, "gcfw");
+				installGCFWAchiInfoPanelCoremod(lattice);
 				installNumberCoremod(lattice, "gcfw");
 			}
 			else
@@ -25,6 +26,26 @@ package gemshapesplus
 				installGCCSToolTipCoremod(lattice);
 				installNumberCoremod(lattice, "gccs/steam");
 			}
+		}
+
+		private static function installGCFWAchiInfoPanelCoremod(lattice:Lattice):void
+		{
+			var filename:String = "com/giab/games/gcfw/utils/GemBitmapCreator.class.asasm";
+			var offset:int = lattice.findPattern(filename, /callpropvoid.*gotoAndStop/);
+			offset -= 9;
+			lattice.patchFile(filename, offset, 0, ' \
+				getlocal0 \n \
+				getproperty QName(PackageNamespace(""), "mc") \n \
+				getproperty QName(PackageNamespace(""), "glare") \n \
+				getlocal2 \n \
+				not \n \
+				setproperty QName(PackageNamespace(""), "useOriginals") \n \
+				getlocal0 \n \
+				getproperty QName(PackageNamespace(""), "mc") \n \
+				getproperty QName(PackageNamespace(""), "blackLayer") \n \
+				getlocal2 \n \
+				not \n \
+				setproperty QName(PackageNamespace(""), "useOriginals")');
 		}
 
 		private static function installGCCSToolTipCoremod(lattice:Lattice):void
